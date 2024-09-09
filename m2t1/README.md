@@ -6,6 +6,10 @@
 - maybe to have fun
 
 ## lessons learned
+bash commands you cannot live without:
+- ls <- what's in this directory
+- cd <- change directory
+- source <- run a script (like activate)
 
 ## instructions
 initial tutorial: https://blog.pythonanywhere.com/121/
@@ -18,6 +22,9 @@ first set up virtualenvironment
 - virtualenv venv
 - source venv/bin/activate
 now we have our "venv" environment, so we can install things in it.
+to turn it off:
+- deactivate
 
-
-pip install flask
+start installing requirements:
+- pip install flask
+- pip freeze > requirements.txt

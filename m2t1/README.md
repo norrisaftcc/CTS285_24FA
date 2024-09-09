@@ -10,3 +10,14 @@
 ## instructions
 initial tutorial: https://blog.pythonanywhere.com/121/
 but we're using codespaces instead of PA
+
+install library:
+
+first set up virtualenvironment
+- pip install virtualenv
+- virtualenv venv
+- source venv/bin/activate
+now we have our "venv" environment, so we can install things in it.
+
+
+pip install flask

@@ -18,6 +18,7 @@ but we're using codespaces instead of PA
 install library:
 
 first set up virtualenvironment
+- cd m2t1 (make the folder first)
 - pip install virtualenv
 - virtualenv venv
 - source venv/bin/activate

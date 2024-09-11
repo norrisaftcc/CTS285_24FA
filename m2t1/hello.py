@@ -1,5 +1,5 @@
 # minimal Flask app
-from flask import Flask
+from flask import Flask, render_template
 
 #print("Starting flask program from ", __name__)
 app = Flask(__name__)
@@ -8,14 +8,12 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    # three quotes for multiline strings
-    return """
-    <h3>Hello from CTS285!!!</h3>
-    <p>This is a paragraph</p>
-    <a href="action">Click here</a>
+    # find the template in /templates
+    name = "John"
+    return render_template("main_page.html", name=name)
 
 
-    """
+
 @app.route("/action")
 def action():
     return "Hello from the action route!"

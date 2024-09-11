@@ -35,3 +35,9 @@ TODO: write a Flask app that does something useful!
 
 to start:
 - flask --debug --app hello run
+
+----
+starting up again:
+- cd m2t1
+- source venv/bin/activate
+- flask --debug --app hello run

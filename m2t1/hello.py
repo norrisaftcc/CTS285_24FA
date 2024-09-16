@@ -5,6 +5,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 # Do any app specific setup here
 # for instance, loading a database
+app.config["DEBUG"] = True # will run in debug mode
 
 @app.route("/")
 def index():
